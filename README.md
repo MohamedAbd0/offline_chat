@@ -9,6 +9,8 @@
 
 A production-ready Flutter macOS desktop application that delivers a **ChatGPT-like experience** using **local AI models**. Built with Clean Architecture, BLoC state management, and enhanced with **beautiful syntax highlighting** and **modern UI components**.
 
+![App Demo](demo.gif)
+
 [Features](#-features) • [Installation](#-installation--setup) • [Architecture](#-architecture) • [Configuration](#-configuration) • [Screenshots](#-screenshots)
 
 </div>
@@ -348,27 +350,37 @@ offline_chat/
 
 <div align="center">
 
-### **🏠 Main Interface**
+### **� App Demo**
 
-_Clean, ChatGPT-inspired design with sidebar navigation_
+_Watch the app in action with real-time streaming and code highlighting_
 
-### **💬 Chat Experience**
+![App Demo](demo.gif)
 
-_Real-time streaming responses with beautiful message bubbles_
+---
 
-### **🎨 Enhanced Code Blocks**
+### **�🏠 Main Interface**
 
-_Professional syntax highlighting with interactive copy buttons_
+_Clean, ChatGPT-inspired design with sidebar navigation and enhanced UI_
 
-### **⚙️ Settings Panel**
+![Main Interface](Screenshot.png)
 
-_Flexible configuration for Ollama models and preferences_
+---
 
-### **📎 File Attachments**
+### **✨ Key Features Shown:**
 
-_Drag & drop support for images, PDFs, and documents_
+- **💬 Real-time Streaming**: Live AI responses with typing indicators
+- **🎨 Beautiful Code Blocks**: Professional syntax highlighting with copy buttons
+- **🔄 Smooth Animations**: Enhanced user interactions and visual feedback
+- **📱 Responsive Design**: Adapts to different window sizes
+- **🌙 Theme Support**: Dark/Light mode with system integration
+- **📎 File Support**: Drag & drop attachments with preview
 
-_Screenshots coming soon - the app features a modern, responsive design optimized for macOS_
+### **🎯 What Makes It Special:**
+
+- **100% Offline**: No data leaves your machine
+- **ChatGPT-like UX**: Familiar and intuitive interface
+- **Enhanced Copy Experience**: Interactive code blocks with animated feedback
+- **Professional Quality**: Production-ready with Clean Architecture
 
 </div>
 
