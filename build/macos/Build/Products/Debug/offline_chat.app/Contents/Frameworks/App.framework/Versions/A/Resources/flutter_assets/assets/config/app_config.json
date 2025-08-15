@@ -1,0 +1,6 @@
+{
+  "baseUrl": "http://localhost:11434",
+  "fixedModel": "gemma3:4b",
+  "keepAlive": "5m",
+  "visionEnabled": true
+}

@@ -1,0 +1,1 @@
+ /Users/mohamedabdo/Desktop/MohamedAbdo/offline_chat/.dart_tool/flutter_build/371113ffea15dac36a179c0bc603ab89/native_assets.json: 
