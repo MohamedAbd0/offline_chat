@@ -863,7 +863,7 @@ We welcome contributions from the community! Here's how you can help:
 1. **Fork the Repository**
 
    ```bash
-   git clone https://github.com/YourUsername/offline_chat.git
+   git clone https://github.com/MohamedAbd0/offline_chat.git
    cd offline_chat
    ```
 
@@ -940,8 +940,8 @@ SOFTWARE.
 ### **🆘 Getting Help**
 
 1. **📚 Check Documentation**: Review this README and in-app help
-2. **🔍 Search Issues**: Look through [existing GitHub issues](https://github.com/YourUsername/offline_chat/issues)
-3. **🐛 Report Bugs**: Create a [new issue](https://github.com/YourUsername/offline_chat/issues/new) with detailed information
+2. **🔍 Search Issues**: Look through [existing GitHub issues](https://github.com/MohamedAbd0/offline_chat/issues)
+3. **🐛 Report Bugs**: Create a [new issue](https://github.com/MohamedAbd0/offline_chat/issues/new) with detailed information
 4. **💡 Feature Requests**: Use the feature request template
 5. **💬 Community Discussion**: Join our community channels
 
@@ -985,10 +985,10 @@ If you find this project helpful:
 
 **Experience ChatGPT-like conversations while keeping your data completely private and secure on your own machine.**
 
-[![GitHub stars](https://img.shields.io/github/stars/YourUsername/offline_chat?style=social)](https://github.com/YourUsername/offline_chat/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YourUsername/offline_chat?style=social)](https://github.com/YourUsername/offline_chat/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/YourUsername/offline_chat)](https://github.com/YourUsername/offline_chat/issues)
-[![GitHub license](https://img.shields.io/github/license/YourUsername/offline_chat)](https://github.com/YourUsername/offline_chat/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/MohamedAbd0/offline_chat?style=social)](https://github.com/MohamedAbd0/offline_chat/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/MohamedAbd0/offline_chat?style=social)](https://github.com/MohamedAbd0/offline_chat/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/MohamedAbd0/offline_chat)](https://github.com/MohamedAbd0/offline_chat/issues)
+[![GitHub license](https://img.shields.io/github/license/MohamedAbd0/offline_chat)](https://github.com/MohamedAbd0/offline_chat/blob/main/LICENSE)
 
 _Made with 💻 on macOS • Powered by 🦙 Ollama • Built with 💙 Flutter_
 
