@@ -1,23 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import '../core/config/app_config.dart';
-import '../data/datasources/local/hive_db.dart';
-import '../data/datasources/remote/ollama_api.dart';
-import '../data/repositories/chat_repository_impl.dart';
-import '../domain/repositories/chat_repository.dart';
-import '../domain/usecases/create_chat.dart';
-import '../domain/usecases/rename_chat.dart';
-import '../domain/usecases/delete_chat.dart';
-import '../domain/usecases/list_chats.dart';
-import '../domain/usecases/load_messages.dart';
-import '../domain/usecases/send_user_message.dart';
-import '../domain/usecases/stop_streaming.dart';
-import '../domain/usecases/generate_title.dart';
-import '../domain/usecases/get_settings.dart';
-import '../domain/usecases/update_settings.dart';
-import '../presentation/blocs/chat_list/chat_list_bloc.dart';
-import '../presentation/blocs/chat_room/chat_room_bloc.dart';
-import '../presentation/blocs/settings/settings_bloc.dart';
+import 'package:offline_chat/exports.dart';
+
 
 final getIt = GetIt.instance;
 

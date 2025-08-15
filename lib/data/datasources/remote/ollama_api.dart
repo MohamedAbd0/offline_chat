@@ -1,9 +1,8 @@
+import 'dart:developer';
 import 'dart:typed_data';
 import 'package:dio/dio.dart';
-import '../../../core/config/app_config.dart';
-import '../../../core/errors.dart';
-import '../../../core/utils/ldjson_parser.dart';
-import '../../../domain/entities/message.dart';
+import 'package:offline_chat/exports.dart';
+
 
 class OllamaApi {
   final Dio _dio;
@@ -20,9 +19,9 @@ class OllamaApi {
     try {
       final messages = _buildMessages(history);
 
-      print('OllamaApi: Sending chat request to ${_config.baseUrl}/api/chat');
-      print('OllamaApi: Model: ${_config.fixedModel}');
-      print('OllamaApi: Messages count: ${messages.length}');
+      log('OllamaApi: Sending chat request to ${_config.baseUrl}/api/chat');
+      log('OllamaApi: Model: ${_config.fixedModel}');
+      log('OllamaApi: Messages count: ${messages.length}');
 
       final response = await _dio.post(
         '/api/chat',
@@ -44,11 +43,11 @@ class OllamaApi {
       final stream = response.data.stream as Stream<List<int>>;
       yield* LdJsonParser.parseStream(stream.cast<Uint8List>());
     } on DioException catch (e) {
-      print('OllamaApi: DioException - ${e.type}: ${e.message}');
-      print('OllamaApi: Response: ${e.response}');
+      log('OllamaApi: DioException - ${e.type}: ${e.message}');
+      log('OllamaApi: Response: ${e.response}');
       throw _handleDioError(e);
     } catch (e) {
-      print('OllamaApi: Unexpected error: $e');
+      log('OllamaApi: Unexpected error: $e');
       rethrow;
     }
   }

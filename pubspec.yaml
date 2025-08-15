@@ -40,6 +40,8 @@ dependencies:
 
   # UI
   flutter_markdown: ^0.7.4+1
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
 
   # Utils
   path: ^1.9.0
